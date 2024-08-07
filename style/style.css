@@ -13,6 +13,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     text-align: center;
+   
 }
 
 input, select{
@@ -29,7 +30,8 @@ input{
     font-size: 1.2em;
 }
 
-a {
+#btn-count{
+    text-decoration: none;
     border-radius: 7px;
     font-weight: bold;
     color: white;
@@ -38,11 +40,30 @@ a {
     border: solid white;
     transition: 0.5s;
 }
-a:hover{
+#btn-count:hover{
     color: black;
     background: white;
 }
 
 #result{
     color: white;
+}
+
+#github{
+    width: 23%;
+    display: flex;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 35%;
+    border-radius: 7px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    background: white;
+    transition: 0.5s;
+}
+#github:hover{
+   background: none;
+   border: solid white;
+   color: white;
 }
