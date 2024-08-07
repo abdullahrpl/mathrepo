@@ -8,20 +8,41 @@ body {
 }
 
 .calculator {
-    background: #f4f4f4;
+    background: #0d94e8;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     text-align: center;
 }
 
-input, select, button {
+input, select{
     margin: 5px 0;
     padding: 10px;
     font-size: 1em;
+}
+input{
+    border-radius: 7px;
 }
 
 .result {
     margin-top: 20px;
     font-size: 1.2em;
+}
+
+a {
+    border-radius: 7px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    background: none;
+    border: solid white;
+    transition: 0.5s;
+}
+a:hover{
+    color: black;
+    background: white;
+}
+
+#result{
+    color: white;
 }

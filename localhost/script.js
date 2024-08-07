@@ -5,7 +5,7 @@ function calculate() {
     let result;
 
     if (isNaN(num1) || isNaN(num2)) {
-        result = "Masukkan angka yang valid";
+        result = "Please type the valid number";
     } else {
         switch (operation) {
             case 'add':
@@ -25,5 +25,5 @@ function calculate() {
         }
     }
 
-    document.getElementById('result').innerText = `Hasil: ${result}`;
+    document.getElementById('result').innerText = `Result: ${result}`;
 }
